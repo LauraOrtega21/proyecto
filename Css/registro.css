@@ -1,4 +1,4 @@
-.registro {
+/* .registro {
     background-color: #ffffff;
     padding: 50px;
     text-align: center;
@@ -27,7 +27,7 @@
 
 .form-group label {
     display: block; /*ese elemento debe comportarse como un bloque en el flujo normal del documento.*/
-    margin-bottom: 5px;
+    /* margin-bottom: 5px;
     color: #4B0082;
     font-weight: bold;
 }
@@ -70,4 +70,90 @@
 .a:hover {
     background-color: #ffffff;
     color: #4B0082;
+} */ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    max-width: 450px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #8A2BE2;
+}
+
+.a{
+    background-color: #8A2BE2;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    width: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+input, select{
+    padding: 12px;
+    border: solid #cecece;
+    border-radius: 8px;
+    outline: none;
+
+}
+
+button{
+    background-color: #8A2BE2;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    width: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5;
+}
+
+button:hover{
+    background-color: #cecece;
+    color: #000000;
+}
+
+button:disabled{
+    background-color: #cccccc;
+    cursor: initial;
+    color:#787676;
+}
+
+.error{
+    border: solid 1px red;
+}
+
+.correcto{
+    border: solid 1px #04d24c
+    ;
 }

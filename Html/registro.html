@@ -5,23 +5,37 @@
     <title>Registro</title>
     <link rel="stylesheet" href="../Css/registro.css">
 </head>
-    <section class="registro">
-        <h2>Regístrate</h2>
-        <form action="#" method="POST" class="registro-form">
-            <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+    <body>
+        <form>
+            <label form="Nombre">Nombre</label>
+            <input type="text" id = "nombre" autocomplete="off">
+            <label form="Apellido">Apellido</label>
+            <input type="text" id = "apellido" autocomplete="off">
+            <label form="telefono">Telefono</label>
+            <input type="number" id = "telefono" autocomplete="off">
+            <label form="correo">Correo</label>
+            <input type="text" id = "correo" autocomplete="off">
+            <label for="tipo_documento">Tipo de Documento:</label>
+                    <select id="tipo_documento" name="tipo"  autocomplete="off">
+                        <option value="">Seleccione...</option>
+                        <option value="dni">DNI</option>
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="cédula">Cédula</option>
+                        <option value="T.I">T.I</option>
+                    </select>
+            <label form="documento">Numero de documento</label>
+            <input type="number" id = "documento" autocomplete="off">
+            <label form="contraseña">Contraseña</label>
+            <input type="text" id = "contraseña" autocomplete="off">
+    
+            <div>
+                <input type="checkbox" id="politicas">
+                <label for="politicas">Acepta las politicas de uso</label>
             </div>
-            <div class="form-group">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" class="btn-submit">Registrarse</button>
-            <button class="btn-submit"><a class="a" href="../index.html">Volver</a></button>
+            <button id="button" type="submit" >Continuar</button>
+            <a class="a" href="../Html/inicio_sesion.html">Ingresar</a>
+            <a class="a" href="../index.html">Volver</a>
         </form>
-    </section>
-</html>
+        <script src="../js/registro.js"></script>
+    </body>
+    </html>
