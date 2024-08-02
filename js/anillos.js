@@ -1,73 +1,73 @@
 const anillos = [
     {
         imagen: "../Imagenes/Oro1.jpg",
-        nombre: "Anillo de Oro 1",
+        nombre: "Anillo de Oro ",
         valor: "$1.200.000",
         material: "oro"
     },
     {
         imagen: "../Imagenes/Plata1.jpg",
-        nombre: "Anillo de Plata 1",
+        nombre: "Anillo de Plata ",
         valor: "$1.100.000",
         material: "plata"
     },
     {
         imagen: "../Imagenes/Bronce1.jpg",
-        nombre: "Anillo de Bronce 1",
+        nombre: "Anillo de Bronce ",
         valor: "$1.000.000",
         material: "bronce"
     },
     {
-        imagen: "",
-        nombre: "Anillo de Acero 1",
+        imagen: "../Imagenes/Acero1.jpg",
+        nombre: "Anillo de Acero ",
         valor: "$1.300.000",
         material: "acero"
     },
     {
         imagen: "../Imagenes/Oro2.jpg",
-        nombre: "Anillo de Oro 2",
+        nombre: "Anillo de Oro ",
         valor: "$1.200.000",
         material: "oro"
     },
     {
         imagen: "../Imagenes/Plata2.jpg",
-        nombre: "Anillo de Plata 2",
+        nombre: "Anillo de Plata ",
         valor: "$1.100.000",
         material: "plata"
     },
     {
         imagen: "../Imagenes/Bronce2.jpg",
-        nombre: "Anillo de Bronce 2",
+        nombre: "Anillo de Bronce ",
         valor: "$1.000.000",
         material: "bronce"
     },
     {
-        imagen: "",
-        nombre: "Anillo de Acero 2",
+        imagen: "../Imagenes/Acero2.jpg",
+        nombre: "Anillo de Acero ",
         valor: "$1.300.000",
         material: "acero"
     },
     {
         imagen: "../Imagenes/Oro3.jpg",
-        nombre: "Anillo de Oro 3",
+        nombre: "Anillo de Oro",
         valor: "$1.200.000",
         material: "oro"
     },
     {
         imagen: "../Imagenes/Plata3.jpg",
-        nombre: "Anillo de Plata 3",
+        nombre: "Anillo de Plata",
         valor: "$1.100.000",
         material: "plata"
     },
     {
         imagen: "../Imagenes/Bronce3.jpg",
-        nombre: "Anillo de Bronce 3",
+        nombre: "Anillo de Bronce",
         valor: "$1.000.000",
         material: "bronce"
     },
     {
-        imagen: "",
-        nombre: "Anillo de Acero 3",
+        imagen: "../Imagenes/Acero3.jpg",
+        nombre: "Anillo de Acero",
         valor: "$1.300.000",
         material: "acero"
     }

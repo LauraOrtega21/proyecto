@@ -78,10 +78,39 @@ header nav ul li a:hover {
     padding: 20px;
 }
 
+.a{
+    background-color: #8A2BE2;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    width: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+
+}
+
+.boton{
+    margin-top: 150px;
+    text-align: left;
+}
+
 .catalog {
     flex-grow: 1;
-    padding: 20px;
+    /* padding: 20px; */
     gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px;
+    margin: 40px;
+
 }
 
 .card {
@@ -91,10 +120,16 @@ header nav ul li a:hover {
     padding: 10px;
     margin: 30px;
     text-align: center;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
 }
 
 .card img {
-    max-width: 100%;
+    width: 150px;
+    height: 150px;
     height: auto;
 }
 
