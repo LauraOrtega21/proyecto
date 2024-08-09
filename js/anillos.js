@@ -73,7 +73,7 @@ const anillos = [
     }
 ];
 
-function renderCatalog(filteredAnillos) {
+function catalogoDijes(filteredAnillos) {
     const catalog = document.getElementById('catalog');
     catalog.innerHTML = '';
     filteredAnillos.forEach(anillo => {
@@ -91,12 +91,12 @@ function renderCatalog(filteredAnillos) {
 
 function filterCatalog() {
     const material = document.getElementById('materialFilter').value;
-    const filteredAnillos = material === 'all' ? anillos : anillos.filter(anillo => anillo.material === material);
-    renderCatalog(filteredAnillos);
+    const filteredAnillos = material === 'all' ? dijes : dijes.filter(anillo => anillo.material === material);
+    catalogoDijes(filteredAnillos);
 }
 
 function verMas(nombre) {
     alert(`Más detalles del ${nombre}`);
 }
 
-renderCatalog(anillos);
+catalogoDijes(dijes);

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Anillos</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <div class="contenedor_hd">
+            <a href="Html/dijes.html" class="imagen">
+                <img class="imagen" src="../Imagenes/logo2.png" alt="imagen">
+            </a>
+            <nav class="menu">  
+                <ul class="navegacion">
+                    <li><a href="Html/anillos.html">Anillos</a></li>
+                    <li><a href="Html/dijes.html">Dijes</a></li>
+                    <li><a href="#">Relojes</a></li>
+                    <li><a href="#">Cadenas</a></li>
+                    <li><a href="#">Pulseras</a></li>
+                    <li><a href="#">Plata fina</a></li>
+                    <li><a href="#">Especiales</a></li>
+                </ul>
+                <ul class="registro">
+                    <li>
+                        <a href="Html/inicio_sesion.html" class="btn-ingreso">Ingreso</a>
+                    </li>
+                    <li>
+                        <a href="Html/registro.html" class="btn-ingreso">Registro</a>        
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="filter">
+            <h2>Filtrar por Material</h2>
+            <select id="materialFilter" onchange="filterCatalog()">
+                <option value="all">Todos</option>
+                <option value="oro">Oro</option>
+                <option value="plata">Plata</option>
+                <option value="bronce">Bronce</option>
+                <option value="acero">Acero</option>
+            </select>
+            <div class="boton">
+            <a class="a" href="../index.html">Regresar</a></div>
+        </div>
+        <div class="catalog" id="catalog">
+            <!-- se insertarán los anillos por medio del js -->
+        </div>
+        
+    </div>
+
+    
+
+
+    <script src=""></script>
+</body>
+</html>
