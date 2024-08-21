@@ -76,14 +76,14 @@ const dijes = [
 function catalogoDijes(filteredAnillos) {
     const catalog = document.getElementById('catalog');
     catalog.innerHTML = '';
-    filteredAnillos.forEach(dije => {
+    filteredAnillos.forEach(dijes => {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <img src="${dije.imagen}" alt="${dije.nombre}">
-            <h3>${dije.nombre}</h3>
-            <p>${dije.valor}</p>
-            <button onclick="verMas('${dije.nombre}')">Ver más</button>
+            <img src="${dijes.imagen}" alt="${dijes.nombre}">
+            <h3>${dijes.nombre}</h3>
+            <p>${dijes.valor}</p>
+            <button onclick="verMas('${dijes.nombre}')">Ver más</button>
         `;
         catalog.appendChild(card);
     });
