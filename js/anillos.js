@@ -99,4 +99,4 @@ function verMas(nombre) {
     alert(`Más detalles del ${nombre}`);
 }
 
-catalogoDijes(dijes);
+catalogoDijes(anillos);
