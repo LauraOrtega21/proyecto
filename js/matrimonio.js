@@ -7,31 +7,31 @@ const joyasMatrimonio = [
     },
     {
         imagen: "../Imagenes/CadenaMatrimonio1.jpg",
-        nombre: "Cadena de Matrimonio 1",
+        nombre: "Anillo de Matrimonioe Matrimonio 1",
         valor: "$3.500.000",
         tipo: "Oro"
     },
     {
         imagen: "../Imagenes/AretesMatrimonio1.jpg",
-        nombre: "Aretes de Matrimonio 1",
+        nombre: "Anillo de Matrimonio",
         valor: "$2.500.000",
         tipo: "Plata"
     },
     {
         imagen: "../Imagenes/PulseraMatrimonio1.jpg",
-        nombre: "Pulsera de Matrimonio 1",
+        nombre: "Anillo de Matrimonio",
         valor: "$2.800.000",
         tipo: "Oro"
     },
     {
         imagen: "../Imagenes/AnilloMatrimonio2.jpg",
-        nombre: "Anillo de Matrimonio 2",
+        nombre: "Anillo de Matrimonio",
         valor: "$3.200.000",
         tipo: "Oro"
     },
     {
         imagen: "../Imagenes/CadenaMatrimonio2.jpg",
-        nombre: "Cadena de Matrimonio 2",
+        nombre: "Anillo de Matrimonio",
         valor: "$3.700.000",
         tipo: "Plata"
     },
