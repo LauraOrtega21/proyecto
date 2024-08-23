@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Pulseras</title>
-    <link rel="stylesheet" href="../Css/pulsera.css">
+    <title>Catálogo de Joyas de Matrimonio</title>
+    <link rel="stylesheet" href="../Css/matrimonio.css">
 </head>
 <body>
     <header>
@@ -35,20 +35,20 @@
     </header>
     <div class="container">
         <div class="filter">
-            <h2>Filtrar por Material</h2>
-            <select id="materialFilter" onchange="filterCatalog()">
+            <h2>Filtrar por Tipo</h2>
+            <select id="tipoFilter" onchange="filterCatalog()">
                 <option value="all">Todos</option>
-                <option value="oro">Oro</option>
-                <option value="plata">Plata</option>
-                <option value="bronce">Bronce</option>
-                <option value="acero">Acero</option>
+                <option value="anillo">Anillos</option>
+                <option value="cadena">Cadenas</option>
+                <option value="aretes">Aretes</option>
+                <option value="pulsera">Pulseras</option>
             </select>
         </div>
         <div class="catalog" id="catalog">
-            <!-- Se insertarán las pulseras por medio del JS -->
+            <!-- Se insertarán las joyas de matrimonio por medio del JS -->
         </div>
     </div>
 
-    <script src="../js/pulseras.js"></script>
+    <script src="../js/matrimonio.js"></script>
 </body>
 </html>
