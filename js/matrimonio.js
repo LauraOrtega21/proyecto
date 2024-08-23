@@ -3,73 +3,73 @@ const joyasMatrimonio = [
         imagen: "../Imagenes/AnilloMatrimonio1.jpg",
         nombre: "Anillo de Matrimonio 1",
         valor: "$3.000.000",
-        tipo: "anillo"
+        tipo: "Bronce"
     },
     {
         imagen: "../Imagenes/CadenaMatrimonio1.jpg",
         nombre: "Cadena de Matrimonio 1",
         valor: "$3.500.000",
-        tipo: "cadena"
+        tipo: "Oro"
     },
     {
         imagen: "../Imagenes/AretesMatrimonio1.jpg",
         nombre: "Aretes de Matrimonio 1",
         valor: "$2.500.000",
-        tipo: "aretes"
+        tipo: "Plata"
     },
     {
         imagen: "../Imagenes/PulseraMatrimonio1.jpg",
         nombre: "Pulsera de Matrimonio 1",
         valor: "$2.800.000",
-        tipo: "pulsera"
+        tipo: "Oro"
     },
     {
         imagen: "../Imagenes/AnilloMatrimonio2.jpg",
         nombre: "Anillo de Matrimonio 2",
         valor: "$3.200.000",
-        tipo: "anillo"
+        tipo: "Oro"
     },
     {
         imagen: "../Imagenes/CadenaMatrimonio2.jpg",
         nombre: "Cadena de Matrimonio 2",
         valor: "$3.700.000",
-        tipo: "cadena"
+        tipo: "Plata"
     },
     {
         imagen: "../Imagenes/AretesMatrimonio2.jpg",
         nombre: "Aretes de Matrimonio 2",
         valor: "$2.700.000",
-        tipo: "aretes"
+        tipo: "Bronce"
     },
     {
         imagen: "../Imagenes/PulseraMatrimonio2.jpg",
         nombre: "Pulsera de Matrimonio 2",
         valor: "$3.000.000",
-        tipo: "pulsera"
+        tipo: "Bronce"
     },
     {
         imagen: "../Imagenes/AnilloMatrimonio3.jpg",
         nombre: "Anillo de Matrimonio 3",
         valor: "$3.400.000",
-        tipo: "anillo"
+        tipo: "Oro"
     },
     {
         imagen: "../Imagenes/CadenaMatrimonio3.jpg",
         nombre: "Cadena de Matrimonio 3",
         valor: "$3.900.000",
-        tipo: "cadena"
+        tipo: "Bronce"
     },
     {
         imagen: "../Imagenes/AretesMatrimonio3.jpg",
         nombre: "Aretes de Matrimonio 3",
         valor: "$2.900.000",
-        tipo: "aretes"
+        tipo: "Plata"
     },
     {
         imagen: "../Imagenes/PulseraMatrimonio3.jpg",
         nombre: "Pulsera de Matrimonio 3",
         valor: "$3.200.000",
-        tipo: "pulsera"
+        tipo: "Oro"
     }
 ];
 
@@ -100,3 +100,4 @@ function verMas(nombre) {
 }
 
 renderCatalog(joyasMatrimonio);
+
