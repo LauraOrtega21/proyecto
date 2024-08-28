@@ -81,9 +81,9 @@ header nav ul li a:hover {
 .products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 60px;
-    margin: 40px;
+    gap: 30px;
+    padding: 90px;
+    margin: 60px;
 
 }
 .containerP{
@@ -119,6 +119,7 @@ header nav ul li a:hover {
     border-radius: 8px;
     overflow: hidden;
     background-color: #340159;
+    margin-bottom: 55px;
 }
 
 .product img {
